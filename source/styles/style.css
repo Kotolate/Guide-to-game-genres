@@ -50,7 +50,10 @@ body{
     justify-content: center;
     color: rgb(76, 97, 200);
 }
-
+::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+}
 @media (max-width:400px){
     .main-nav{
         margin-left: 3px;
